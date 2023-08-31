@@ -1,0 +1,202 @@
+{
+  "description": "项目配置文件",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": false,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enhance": false,
+    "showShadowRootInWxmlPanel": false,
+    "packNpmRelationList": [],
+    "ignoreUploadUnusedFiles": true
+  },
+  "compileType": "miniprogram",
+  "cloudfunctionTemplateRoot": "",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "详情页分享/拍卖进展通知模板（跳转拍品详情）",
+          "pathName": "pages/auctionItemDetail/auctionItemDetail",
+          "query": "share=share&product_id=16&auction_id=13",
+          "scene": null
+        },
+        {
+          "name": "拍卖开始通知模板（跳转专场列表）",
+          "pathName": "pages/auction/auction",
+          "query": "share=share",
+          "scene": null
+        },
+        {
+          "name": "拍卖成功通知模板（跳转待付款页）",
+          "pathName": "pages/myOrder/myOrder",
+          "query": "form=form&order_type=1",
+          "scene": null
+        },
+        {
+          "name": "图录二维码",
+          "pathName": "pages/auctionItemDetail/auctionItemDetail",
+          "query": "scene=16,13",
+          "scene": null
+        },
+        {
+          "name": "文章详情分享",
+          "pathName": "pages/contentDetail/contentDetail",
+          "query": "share=share",
+          "scene": null
+        },
+        {
+          "name": "分享话题列表",
+          "pathName": "pages/topicList/topicList",
+          "query": "share=share&tag_type=city_id&tag_id=131&content_id=1840&topicTitle=北京市",
+          "scene": null
+        },
+        {
+          "name": "测试",
+          "pathName": "pages/contentDetailOne/contentDetailOne",
+          "query": "share=share&content_id=694&article_type=",
+          "scene": null
+        },
+        {
+          "name": "pages/auctionDetail/auctionDetail",
+          "pathName": "pages/auctionDetail/auctionDetail",
+          "query": "auctionId=2",
+          "scene": null
+        },
+        {
+          "name": "pages/auctionDetail/auctionDetail",
+          "pathName": "pages/auctionDetail/auctionDetail",
+          "query": "autionId=3",
+          "scene": null
+        },
+        {
+          "name": "pages/deposit/deposit",
+          "pathName": "pages/deposit/deposit",
+          "query": "auctionId=1&itemId=3",
+          "scene": null
+        },
+        {
+          "name": "pages/auctionItemDetail/auctionItemDetail",
+          "pathName": "pages/auctionItemDetail/auctionItemDetail",
+          "query": "auctionId=1&itemId=3",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/message/message",
+          "pathName": "pages/message/message",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/publish/publish",
+          "pathName": "pages/publish/publish",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/publishSuccess/publishSuccess",
+          "pathName": "pages/publishSuccess/publishSuccess",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/newsDetail/newsDetail",
+          "pathName": "pages/newsDetail/newsDetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/auction/auction",
+          "pathName": "pages/auction/auction",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/deposit/deposit",
+          "pathName": "pages/deposit/deposit",
+          "query": "itemId=4",
+          "scene": null
+        },
+        {
+          "name": "pages/bid/bid",
+          "pathName": "pages/bid/bid",
+          "query": "itemId=3",
+          "scene": null
+        },
+        {
+          "name": "pages/coupon/coupon",
+          "pathName": "pages/coupon/coupon",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/myCoupon/myCoupon",
+          "pathName": "pages/myCoupon/myCoupon",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/order/order",
+          "pathName": "pages/order/order",
+          "query": "seleted=1",
+          "scene": null
+        },
+        {
+          "name": "pages/pay/pay",
+          "pathName": "pages/pay/pay",
+          "query": "orderId=2",
+          "scene": null
+        },
+        {
+          "name": "pages/chooseAddress/chooseAddress",
+          "pathName": "pages/chooseAddress/chooseAddress",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "libVersion": "2.10.0",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "appid": "wx6d3f44e2b07cbc73"
+}
